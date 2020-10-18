@@ -238,11 +238,11 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    }</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">/* Example Non-prime numbers */</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> NonPrimers[] = {4, 6, 8, 9, 10, 12, 16, 51};</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0, size = <span class="keyword">sizeof</span>(NonPrimers) / <span class="keyword">sizeof</span>(NonPrimers[0]);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> nonPrimers[] = {4, 6, 8, 9, 10, 12, 16, 51};</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">size_t</span> i = 0, size = <span class="keyword">sizeof</span>(nonPrimers) / <span class="keyword">sizeof</span>(nonPrimers[0]);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;         i &lt; size; ++i)</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        assert(!primep[NonPrimers[i]]);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        assert(!primep[nonPrimers[i]]);</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    }</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
