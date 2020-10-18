@@ -1,4 +1,4 @@
 <map id="main" name="main">
 <area shape="rect" id="node1" title="Main function." alt="" coords="5,5,56,32"/>
-<area shape="rect" id="node2" href="$d1/da7/sieve__of__eratosthenes_8c.html#a527e778ff1fba1f29076b31590e99b57" title="for &#39;assert&#39; in &#39;test&#39; function for &#39;bool&#39; type in &#39;sieve&#39; and &#39;test&#39; function for &#39;calloc&#39; in &#39;sieve..." alt="" coords="104,5,157,32"/>
+<area shape="rect" id="node2" href="$d1/da7/sieve__of__eratosthenes_8c.html#a527e778ff1fba1f29076b31590e99b57" title="for &#39;assert&#39; in &#39;test&#39; function for &#39;bool&#39; type in &#39;sieve&#39; and &#39;test&#39; function for &#39;memset&#39; in &#39;sieve..." alt="" coords="104,5,157,32"/>
 </map>
